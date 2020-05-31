@@ -24,4 +24,5 @@ li{
     list-style: none;
     margin-right: 20rem;
     font-size: 1.2rem;
+    /* overflow: scroll; */
 }
