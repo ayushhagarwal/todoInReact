@@ -1,0 +1,27 @@
+input{
+    margin-top: 10rem;
+    display: inline-block;
+    width: 500px;
+    height: 40px;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    padding: 10px 10px 10px 100px;
+    
+}
+button{
+    margin-left: 30px;
+    width: 100px;
+    height: 30px;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    
+}
+li{
+    list-style: none;
+    margin-right: 20rem;
+    font-size: 1.2rem;
+}

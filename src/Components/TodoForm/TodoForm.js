@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './TodoForm.css'
 const TodoForm=(props)=>{
     let todos=(
         props.todos.map(todo=>{
@@ -15,7 +15,8 @@ const TodoForm=(props)=>{
     return(
         <div className="Form">
             <form onSubmit={props.submit}>
-                <input type="text" placeholder="Add todo" onChange={props.change}/>
+                <input id="input1" type="text" placeholder="Add a new todo" onChange={props.change}/>
+                {/* <label for="input1">Name</label> */}
                 <button onClick={props.click}>Add</button>
                 {todos}
             </form>

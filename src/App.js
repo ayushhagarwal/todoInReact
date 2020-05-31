@@ -39,7 +39,7 @@ class App extends Component{
   render(){
     return (
       <div className="App">
-        {/* <Navbar/> */}
+        <Navbar/>
         <TodoForm submit={this.submitHandler}  change={this.inputHandler} click={this.addHandler} todos={this.state.todos}/>
       </div>
     );
