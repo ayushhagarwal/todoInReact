@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A todo app project in react to help you manage your daily tasks.
 
 ## Available Scripts
 
