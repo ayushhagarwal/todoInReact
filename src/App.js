@@ -3,6 +3,7 @@ import './App.css';
 import {v4 as uuidv4} from 'uuid';
 import Navbar from './Components/Navbar/Navbar';
 import TodoForm from './Components/TodoForm/TodoForm';
+import TodoItem from './Components/TodoItem/TodoItem'
 class App extends Component{
   state={
     todos:[],
@@ -28,7 +29,6 @@ class App extends Component{
       const todos1=[...this.state.todos,newitems];
       this.setState({
         todos:todos1,
-        updated:true,
         items:{
           task:'',
           id:''
@@ -36,11 +36,14 @@ class App extends Component{
       })
     }
   }
+  
   render(){
+    
     return (
       <div className="App">
         <Navbar/>
-        <TodoForm submit={this.submitHandler}  change={this.inputHandler} click={this.addHandler} todos={this.state.todos}/>
+        <TodoForm submit={this.submitHandler}  change={this.inputHandler} click={this.addHandler}/>
+        <TodoItem todos={this.state.todos} click={() => this.deleteHandler(this.state.todos.id)}/>
       </div>
     );
   }

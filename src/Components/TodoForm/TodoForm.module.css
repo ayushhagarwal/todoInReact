@@ -1,4 +1,4 @@
-input{
+.Form input{
     margin-top: 10rem;
     display: inline-block;
     width: 500px;
@@ -10,7 +10,7 @@ input{
     padding: 10px 10px 10px 100px;
     
 }
-button{
+.Form button{
     margin-left: 30px;
     width: 100px;
     height: 30px;
@@ -20,9 +20,12 @@ button{
     border-radius: 3px;
     
 }
-li{
+.Form li{
     list-style: none;
     margin-right: 20rem;
     font-size: 1.2rem;
     /* overflow: scroll; */
+}
+.delete{
+    margin-left: 25rem;
 }

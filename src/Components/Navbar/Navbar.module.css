@@ -9,7 +9,7 @@
     position: fixed;
     z-index: 1;
 }
-.Navbar-Brand{
+.NavbarBrand{
     padding-left: 5vw;
     color: #373737;
     letter-spacing: 1.5px;
@@ -18,7 +18,7 @@
     text-decoration: none;
     font-weight: 600;
 }
-.Navbar-Links{
+.NavbarLinks{
     height: 100%;
     width: 20%;
     display: flex;
@@ -26,7 +26,7 @@
     justify-content: space-between;
     padding-right: 5vw;
 }
-.Navbar-Link{
+.NavbarLink{
     color: #373737;
     text-transform: uppercase;
     letter-spacing: 1.6px;
