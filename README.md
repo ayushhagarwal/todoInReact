@@ -1,3 +1,4 @@
+#To-Do List React
 A todo app project in react to help you manage your daily tasks. The project is not completed yet and is still a work in progress.
 
 ## Available Scripts
